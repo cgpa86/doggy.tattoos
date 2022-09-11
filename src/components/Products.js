@@ -19,7 +19,7 @@ export default class Products extends Component {
                     onClick={() => this.props.addToCart(product)}
                     className="button primary"
                   >
-                    Add To Cart
+                    Agregar Orden
                   </button>
                 </div>
               </div>

@@ -29,10 +29,10 @@ export default class Cart extends Component {
     return (
       <div>
         {cartItems.length === 0 ? (
-          <div className="cart cart-header">Cart is empty</div>
+          <div className="cart cart-header">Carro Vacio </div>
         ) : (
           <div className="cart cart-header">
-            You have {cartItems.length} in the cart{" "}
+           Tienes {cartItems.length} productos en el carrito{" "}
           </div>
         )}
         <div>
@@ -75,7 +75,7 @@ export default class Cart extends Component {
                     }}
                     className="button primary"
                   >
-                    Proceed
+                    Proceder
                   </button>
                 </div>
               </div>
@@ -93,7 +93,7 @@ export default class Cart extends Component {
                         ></input>
                       </li>
                       <li>
-                        <label>Name</label>
+                        <label>Nombre</label>
                         <input
                           name="name"
                           type="text"
@@ -102,10 +102,10 @@ export default class Cart extends Component {
                         ></input>
                       </li>
                       <li>
-                        <label>Address</label>
+                        <label>Teléfono</label>
                         <input
                           name="address"
-                          type="text"
+                          type="number"
                           required
                           onChange={this.handleInput}
                         ></input>
