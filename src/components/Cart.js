@@ -7,7 +7,7 @@ export default class Cart extends Component {
     this.state = {
       name: "",
       email: "",
-      address: "",
+      address: Number,
       showCheckout: false,
     };
   }

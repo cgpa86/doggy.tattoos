@@ -3,7 +3,7 @@
       {
         "_id": "dress1",
         "image": "/images/tat1.jpg",
-        "title": "item ",
+        "title": "item 1 ",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non magna vel leo maximus rutrum et quis sem. Cras vel sodales est. Aliquam erat volutpat. Nam eleifend",
         "availableSizes": ["X", "L", "XL", "XXL"],
         "price": 999.99
@@ -11,7 +11,7 @@
       {
         "_id": "dress2",
         "image": "/images/tat2.jpg",
-        "title": "item ",
+        "title": "item 2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non magna vel leo maximus rutrum et quis sem. Cras vel sodales est. Aliquam erat volutpat. Nam eleifend",
         "availableSizes": ["X", "M", "L"],
         "price": 999.99
@@ -19,7 +19,7 @@
       {
         "_id": "dress3",
         "image": "/images/tat3.jpg",
-        "title": "item ",
+        "title": "item 3",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non magna vel leo maximus rutrum et quis sem. Cras vel sodales est. Aliquam erat volutpat. Nam eleifend",
         "availableSizes": ["X", "M", "L"],
         "price": 999.99
@@ -27,7 +27,7 @@
       {
         "_id": "dress4",
         "image": "/images/tat4.jpg",
-        "title": "item ",
+        "title": "item 4",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non magna vel leo maximus rutrum et quis sem. Cras vel sodales est. Aliquam erat volutpat. Nam eleifend",
         "availableSizes": ["XL"],
         "price": 999.99
@@ -36,7 +36,7 @@
       {
         "_id": "dress6",
         "image": "/images/tat6.jpg",
-        "title": "item ",
+        "title": "item 5",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non magna vel leo maximus rutrum et quis sem. Cras vel sodales est. Aliquam erat volutpat. Nam eleifend",
         "availableSizes": ["XL", "XXL"],
         "price": 999.99

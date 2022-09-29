@@ -6,14 +6,7 @@ const shortid = require("shortid");
 const app = express();
 app.use(bodyParser.json());
 
-
-//renderizar proyecto build en index.html
-
-app.use("/", express.static(__dirname + "/build"));
-app.get("/", (req, res)=> res.sendFile(__dirname + "/build/index.html"));
-
-
-mongoose.connect("mongodb://localhost/react-shopping-cart-db", {
+mongoose.connect("mongodb://localhost/doggytattoos", {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,

@@ -32,7 +32,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ff8000;
+  color: #00ff08;
 }
 header {
   grid-area: header;
@@ -46,6 +46,7 @@ header {
 header a {
   color: #ffffff;
   text-decoration: none;
+
 }
 main {
   grid-area: main;
@@ -115,10 +116,10 @@ footer {
   cursor: pointer;
 }
 .button:hover {
-  border: 0.1rem #808080 solid;
+  border: 0.1rem #88d459 solid;
 }
 .button.primary {
-  background-color: #f0c040;
+  background-color: #52f040;
 }
 /* Filter */
 .filter {
